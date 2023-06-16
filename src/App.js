@@ -186,7 +186,7 @@ function App() {
                     <h3>Pokedex Web App</h3>
                     <p className="subtext"> Pokedex Web App using React JS and Framer motion with option to view stats, abilities, moves and shiny.</p>
                     <hr/>
-                    <p className="subtext"><a className="project-link" href="https://chat-realtime-react.vercel.app/login">View here</a></p>
+                    <p className="subtext"><a className="project-link" href="https://pokedex-react-app-one.vercel.app/">View here</a></p>
                                   
                 </div>
 
@@ -204,14 +204,14 @@ function App() {
                     <h3>Movie Finding App</h3>
                     <p className="subtext"> React App using OMDB API to fetch movie data, then search to find the movie and details from fetched data.</p>
                     <hr/>
-                    <p className="subtext"><a className="project-link" href="https://github.com/rahul-269/react-movie-app">View here</a></p>
+                    <p className="subtext"><a className="project-link" href="https://react-movie-finder-app-eta.vercel.app/">View here</a></p>
                 </div>
                 <div className="project-card">
                     <img className="project-image" src={project2} alt="Project One"/>
                     <h3>User Management Software</h3>
                     <p className="subtext"> React App using fake API to generate random user data, functions include: add, delete and update.</p>
                     <hr/>
-                    <p className="subtext"><a className="project-link" href="https://github.com/rahul-269/react-fake-api">View here</a></p>
+                    <p className="subtext"><a className="project-link" href="https://user-management-faker.vercel.app/">View here</a></p>
                 </div>
                 <div className="project-card">
                     <img className="project-image" src={project4} alt="Project One"/>
