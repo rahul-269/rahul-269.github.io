@@ -11,8 +11,8 @@ const nextConfig: NextConfig = {
   },
   devIndicators: false,
   trailingSlash: true,
-  basePath: "/rahul-269.github.io",
-  assetPrefix: "/rahul-269.github.io",
+  // basePath: "/rahul-269.github.io",
+  // assetPrefix: "/rahul-269.github.io",
 };
 
 export default nextConfig;
