@@ -9,6 +9,7 @@ import {
   MessageCircle,
   Search,
   Users,
+  Gamepad2,
 } from "lucide-react";
 
 const Projects = () => {
@@ -23,6 +24,18 @@ const Projects = () => {
   }, [isInView, controls]);
 
   const projects = [
+    {
+      title: "Cluemoji Game",
+      description:
+        "A web-based word puzzle game where players decode visual emoji hints to guess hidden words, featuring a clean UI, streak tracking, and interactive gameplay.",
+      image: "/api/placeholder/400/250",
+      tech: ["Nextjs", "Tailwind CSS", "Typescript"],
+      liveUrl: "https://cluemoji-sigma.vercel.app/",
+      githubUrl: "#",
+      icon: Gamepad2,
+      gradient: "from-purple-600 to-purple-400",
+      featured: false,
+    },
     {
       title: "Pokedex Web App",
       description:
@@ -47,6 +60,7 @@ const Projects = () => {
       gradient: "from-green-400 to-blue-500",
       featured: false,
     },
+
     {
       title: "User Management System",
       description:
@@ -60,18 +74,18 @@ const Projects = () => {
       featured: false,
     },
 
-    {
-      title: "Movie Finder App",
-      description:
-        "Discover movies with this sleek search application powered by OMDB API, featuring detailed movie information and ratings.",
-      image: "/api/placeholder/400/250",
-      tech: ["React", "OMDB API", "CSS3", "JavaScript"],
-      liveUrl: "https://react-movie-finder-app-eta.vercel.app/",
-      githubUrl: "#",
-      icon: Search,
-      gradient: "from-purple-400 to-pink-500",
-      featured: false,
-    },
+    // {
+    //   title: "Movie Finder App",
+    //   description:
+    //     "Discover movies with this sleek search application powered by OMDB API, featuring detailed movie information and ratings.",
+    //   image: "/api/placeholder/400/250",
+    //   tech: ["React", "OMDB API", "CSS3", "JavaScript"],
+    //   liveUrl: "https://react-movie-finder-app-eta.vercel.app/",
+    //   githubUrl: "#",
+    //   icon: Search,
+    //   gradient: "from-purple-400 to-pink-500",
+    //   featured: false,
+    // },
   ];
 
   const containerVariants = {
@@ -249,7 +263,8 @@ const Projects = () => {
                   <motion.div
                     key={project.title}
                     variants={itemVariants}
-                    whileHover={{ y: -5, scale: 1.02 }}
+                    initial={{ y: 0 }}
+                    whileHover={{ y: -50, scale: 1.02 }}
                     className="group relative"
                   >
                     <div className="bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-700/30 group-hover:border-slate-600/50 transition-all duration-300 h-full">

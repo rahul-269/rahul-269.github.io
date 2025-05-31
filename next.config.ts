@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   // basePath: "/rahul-269.github.io",
   // assetPrefix: "/rahul-269.github.io",
+  transpilePackages: ['three'],
 };
 
 export default nextConfig;
